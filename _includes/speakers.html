@@ -1,0 +1,17 @@
+<section id="speakers" class="section">
+  <div class="container">
+    <h2>Invited Speakers</h2>
+    <div class="card-grid card-grid-3">
+      {% for speaker in site.data.speakers %}
+      <div class="card speaker-card">
+        <div class="avatar">
+          <span>{{ speaker.initials }}</span>
+        </div>
+        <h3>{{ speaker.name }}</h3>
+        <p class="affiliation">{{ speaker.affiliation }}</p>
+        <p class="bio">{{ speaker.bio }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

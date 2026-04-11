@@ -1,0 +1,31 @@
+<section id="schedule" class="section section-warm">
+  <div class="container">
+    <h2>Schedule</h2>
+    <p class="section-note">Full-day workshop. Schedule subject to changes.</p>
+    <div class="schedule-table-wrap">
+      <table class="schedule-table">
+        <tbody>
+          {% for item in site.data.schedule %}
+          <tr class="schedule-{{ item.type }}">
+            <td class="schedule-time">{{ item.time }}</td>
+            <td class="schedule-event">
+              <strong>{{ item.title }}</strong>
+              {% if item.speaker %}
+                <span class="schedule-speaker">&mdash; {{ item.speaker }}</span>
+              {% endif %}
+              {% if item.detail %}
+                <span class="schedule-detail">{{ item.detail }}</span>
+              {% endif %}
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    <div class="contributed-note">
+      <h3>Contributed Talks and Posters</h3>
+      <p>The workshop will feature both contributed talks and posters. We will solicit extended abstracts and working papers (non-archival). A light review process will select approximately 6 papers for contributed talks; additional accepted papers will be presented as posters.</p>
+    </div>
+  </div>
+</section>

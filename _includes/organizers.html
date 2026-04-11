@@ -1,0 +1,17 @@
+<section id="organizers" class="section section-warm">
+  <div class="container">
+    <h2>Organizers</h2>
+    <div class="card-grid card-grid-3">
+      {% for org in site.data.organizers %}
+      <div class="card organizer-card">
+        <div class="avatar">
+          <span>{{ org.initials }}</span>
+        </div>
+        <h3>{{ org.name }}</h3>
+        <p class="affiliation">{{ org.affiliation }}</p>
+        <p class="bio">{{ org.bio }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

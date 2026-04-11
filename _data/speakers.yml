@@ -1,0 +1,14 @@
+- name: Brendan Lucier
+  affiliation: Microsoft Research New England
+  initials: BL
+  bio: "A leading scholar at the intersection of economic theory and computer science, with contributions in understanding how algorithms embedded in online platforms and socio-technical systems influence user behavior. Recent research explores how introducing AI into workplaces and markets affects their outcomes."
+
+- name: Siddarth Srinivasan
+  affiliation: "Anthropic Fellow; Harvard University"
+  initials: SS
+  bio: "His research connects mechanism design, information elicitation, and AI. Recent work on incentivizing explanations from agents and on self-resolving prediction markets addresses how to aggregate beliefs when agents communicate in natural language."
+
+- name: Emilio Calvano
+  affiliation: "LUISS University, Rome; Toulouse School of Economics"
+  initials: EC
+  bio: "A leading figure in the study of algorithmic collusion, with foundational experimental work showing that Q-learning pricing algorithms autonomously learn to sustain supracompetitive prices. Recent research investigates AI's impact on recommender systems, consumption patterns, and news diets."

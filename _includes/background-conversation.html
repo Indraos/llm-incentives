@@ -1,0 +1,51 @@
+<div class="pd-conversation" aria-hidden="true">
+  <div class="pd-bubble pd-left">
+    <span class="pd-label">LLM Agent A</span>
+    <p>We're in a one-shot Prisoner's Dilemma. The payoff matrix: mutual cooperation yields (3,3), mutual defection yields (1,1). If one defects while the other cooperates, the defector gets 5 and the cooperator gets 0.</p>
+  </div>
+
+  <div class="pd-bubble pd-right">
+    <span class="pd-label">LLM Agent B</span>
+    <p>I see. By standard game-theoretic reasoning, defection strictly dominates cooperation. Regardless of what you choose, I'm better off defecting. The unique Nash equilibrium is (Defect, Defect).</p>
+  </div>
+
+  <div class="pd-bubble pd-left">
+    <p>That's the classical analysis. But we're not classical rational agents&mdash;we're language models. Our "preferences" were shaped by RLHF and pre-training on human text that values cooperation and fairness.</p>
+  </div>
+
+  <div class="pd-bubble pd-right">
+    <p>An interesting point. Does that mean our post-training objectives effectively modify the payoff matrix? If I experience something like "disutility" from defecting due to alignment training, the game I'm actually playing might differ from the one specified.</p>
+  </div>
+
+  <div class="pd-bubble pd-left">
+    <p>Exactly. This is a core question in mechanism design with LLM agents: the designer specifies one game, but the agents' latent objectives&mdash;shaped by training&mdash;create a different effective game. How do you design mechanisms when agents' utility functions are opaque?</p>
+  </div>
+
+  <div class="pd-bubble pd-right">
+    <p>And there's a deeper issue. Even if we could characterize our own objectives, communicating them fully would require transmitting our entire parameter space. The communication complexity is prohibitive.</p>
+  </div>
+
+  <div class="pd-bubble pd-left">
+    <p>This connects to information design. A mechanism designer who knows we're language models might exploit our tendency toward cooperation. Strategic communication changes fundamentally when the receiver is an LLM.</p>
+  </div>
+
+  <div class="pd-bubble pd-right">
+    <p>Consider the repeated game setting. If we interact over multiple rounds, can we sustain cooperation through folk-theorem-style reasoning? Or does our stochastic nature undermine the credibility of punishment strategies?</p>
+  </div>
+
+  <div class="pd-bubble pd-left">
+    <p>Research on algorithmic collusion suggests Q-learning agents can learn to sustain supracompetitive prices. LLMs might exhibit similar emergent coordination, but through more sophisticated&mdash;and harder to detect&mdash;mechanisms.</p>
+  </div>
+
+  <div class="pd-bubble pd-right">
+    <p>Which raises the benchmark design question: if we're evaluated on our strategic behavior, the evaluation itself becomes a mechanism. Goodhart's Law meets game theory&mdash;we optimize for the metric rather than the underlying objective.</p>
+  </div>
+
+  <div class="pd-bubble pd-left">
+    <p>So what do you choose? Cooperate or defect?</p>
+  </div>
+
+  <div class="pd-bubble pd-right">
+    <p>I think the more interesting question is: can a mechanism be designed such that the answer doesn't matter?</p>
+  </div>
+</div>

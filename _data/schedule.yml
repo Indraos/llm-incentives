@@ -1,0 +1,56 @@
+- time: "08:30 – 08:40"
+  title: "Opening"
+  type: opening
+
+- time: "08:40 – 09:30"
+  title: "Invited Talk 1"
+  speaker: "Brendan Lucier"
+  detail: "45' + 5' Q&A"
+  type: invited
+
+- time: "09:30 – 10:00"
+  title: "Three Spotlight Talks"
+  detail: "7' + 2' Q&A each"
+  type: contributed
+
+- time: "10:00 – 10:30"
+  title: "Coffee Break"
+  type: break
+
+- time: "10:30 – 11:20"
+  title: "Invited Talk 2"
+  speaker: "Siddarth Srinivasan"
+  detail: "45' + 5' Q&A"
+  type: invited
+
+- time: "11:20 – 12:00"
+  title: "Three Spotlight Talks"
+  detail: "7' + 2' Q&A each"
+  type: contributed
+
+- time: "12:00 – 13:00"
+  title: "Lunch"
+  type: break
+
+- time: "13:00 – 13:50"
+  title: "Invited Talk 3"
+  speaker: "Emilio Calvano"
+  detail: "45' + 5' Q&A"
+  type: invited
+
+- time: "14:00 – 15:00"
+  title: "Poster Session"
+  type: poster
+
+- time: "15:00 – 15:30"
+  title: "Coffee Break"
+  type: break
+
+- time: "15:30 – 16:30"
+  title: "Open Problems"
+  detail: "Small group discussion with final presentation"
+  type: discussion
+
+- time: "16:30 – 16:45"
+  title: "Closing Remarks"
+  type: closing

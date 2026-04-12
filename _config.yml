@@ -1,7 +1,7 @@
 title: "Game Theory and Mechanism Design with Large Language Models"
 description: "Workshop at ACM EC 2026"
-url: "https://andyhaupt.com"
-baseurl: "/llm-incentives"
+url: "https://www.llm-incentives.com"
+baseurl: ""
 markdown: kramdown
 plugins:
   - jekyll-seo-tag

@@ -238,7 +238,8 @@ a:hover {
   letter-spacing: 0.05em;
 }
 
-.speaker-card .avatar {
+.speaker-card .avatar,
+.organizer-card .avatar {
   width: 104px;
   height: 104px;
   background: transparent;

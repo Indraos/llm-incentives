@@ -5,11 +5,15 @@
       {% for org in site.data.organizers %}
       <div class="card organizer-card">
         <div class="avatar">
-          <span>{{ org.initials }}</span>
+          {% if org.image %}
+            <img src="{{ org.image | relative_url }}" alt="Portrait of {{ org.name }}">
+          {% else %}
+            <span>{{ org.initials }}</span>
+          {% endif %}
         </div>
         <h3>{{ org.name }}</h3>
         <p class="affiliation">{{ org.affiliation }}</p>
-        <p class="bio">{{ org.bio }}</p>
+        {% if org.bio %}<p class="bio">{{ org.bio }}</p>{% endif %}
       </div>
       {% endfor %}
     </div>

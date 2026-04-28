@@ -1,29 +1,29 @@
 - name: Yeganeh Alimohammadi
   affiliation: USC Marshall
   initials: YA
-  bio: "Assistant Professor of Data Sciences and Operations. Her research develops principled methods for learning and decision-making in complex systems with incomplete data, strategic behavior, and network structure."
+  image: /assets/images/organizers/yeganeh-alimohammadi.jpg
 
 - name: Kate Donahue
   affiliation: MIT & UIUC
   initials: KD
-  bio: "METEOR postdoc at MIT, joining UIUC as Assistant Professor of Computer Science in Summer 2026. Her research addresses algorithmic fairness, human-AI collaboration, and game-theoretic models of federated learning."
+  image: /assets/images/organizers/kate-donahue.jpg
 
 - name: Sara Fish
   affiliation: Harvard University
   initials: SF
-  bio: "PhD student at Harvard. Her research spans EconCS and ML, including work on algorithmic collusion by LLMs, generative social choice, and economic benchmarks for LLM agents."
+  image: /assets/images/organizers/sara-fish.jpg
 
 - name: Andreas Haupt
   affiliation: Stanford University
   initials: AH
-  bio: "Human-Centered AI Postdoctoral Fellow at Stanford, jointly appointed in Economics and Computer Science. He studies the elicitation and aggregation of human preferences in ML systems using methods from microeconomic theory."
+  image: /assets/images/organizers/andreas-haupt.jpg
 
 - name: Ce Li
   affiliation: Boston University
   initials: CL
-  bio: "PhD candidate in Economics at Boston University. Her research develops microeconomic theories at the AI-economics interface, with a focus on information design and learning algorithms for human-AI interactions."
+  image: /assets/images/organizers/ce-li.jpg
 
 - name: Giacomo Mantegazza
   affiliation: USC Marshall
   initials: GM
-  bio: "Assistant Professor of Data Sciences and Operations. His research studies competition in online and decentralized markets, with recent work on algorithmic collusion and platform information design."
+  image: /assets/images/organizers/giacomo-mantegazza.jpg

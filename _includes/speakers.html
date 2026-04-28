@@ -5,11 +5,15 @@
       {% for speaker in site.data.speakers %}
       <div class="card speaker-card">
         <div class="avatar">
-          <span>{{ speaker.initials }}</span>
+          {% if speaker.image %}
+            <img src="{{ speaker.image | relative_url }}" alt="Portrait of {{ speaker.name }}">
+          {% else %}
+            <span>{{ speaker.initials }}</span>
+          {% endif %}
         </div>
         <h3>{{ speaker.name }}</h3>
         <p class="affiliation">{{ speaker.affiliation }}</p>
-        <p class="bio">{{ speaker.bio }}</p>
+        {% if speaker.bio %}<p class="bio">{{ speaker.bio }}</p>{% endif %}
       </div>
       {% endfor %}
     </div>

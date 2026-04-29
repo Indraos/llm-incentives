@@ -1,39 +1,39 @@
-- time: "09:00 – 09:05"
+- duration: "5 min"
   title: "Opening"
   type: opening
 
-- time: "09:05 – 09:40"
+- duration: "35 min"
   title: "Invited Talk 1"
   speaker: "Brendan Lucier"
   detail: "30' + 5' Q&A"
   type: invited
 
-- time: "09:40 – 10:00"
+- duration: "20 min"
   title: "Two Spotlight Talks"
   detail: "7' + 2' Q&A each"
   type: contributed
 
-- time: "10:00 – 10:35"
+- duration: "35 min"
   title: "Invited Talk 2"
   speaker: "Siddarth Srinivasan"
   detail: "30' + 5' Q&A"
   type: invited
 
-- time: "10:35 – 10:55"
+- duration: "20 min"
   title: "Coffee Break"
   type: break
 
-- time: "10:55 – 11:30"
+- duration: "35 min"
   title: "Invited Talk 3"
   speaker: "Emilio Calvano"
   detail: "30' + 5' Q&A"
   type: invited
 
-- time: "11:30 – 11:55"
+- duration: "25 min"
   title: "Open Problems"
   detail: "Small group discussion with final presentation"
   type: discussion
 
-- time: "11:55 – 12:00"
+- duration: "5 min"
   title: "Closing Remarks"
   type: closing

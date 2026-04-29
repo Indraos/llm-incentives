@@ -1,13 +1,12 @@
 <section id="schedule" class="section section-warm">
   <div class="container">
-    <h2>Schedule</h2>
-    <p class="section-note">Half-day workshop. Schedule subject to changes.</p>
+    <h2>Tentative Schedule</h2>
     <div class="schedule-table-wrap">
       <table class="schedule-table">
         <tbody>
           {% for item in site.data.schedule %}
           <tr class="schedule-{{ item.type }}">
-            <td class="schedule-time">{{ item.time }}</td>
+            <td class="schedule-time">{{ item.duration }}</td>
             <td class="schedule-event">
               <strong>{{ item.title }}</strong>
               {% if item.speaker %}

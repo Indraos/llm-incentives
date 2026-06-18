@@ -4,27 +4,44 @@
     <div class="schedule-table-wrap">
       <table class="schedule-table">
         <tbody>
+          {% comment %} Running clock in minutes since midnight; 9:00 AM = 540. clock.html renders each. {% endcomment %}
+          {% assign t = 540 %}
           {% for item in site.data.schedule %}
+          {% assign dur = item.duration | split: " " | first | plus: 0 %}
+          {% assign tend = t | plus: dur %}
           <tr class="schedule-{{ item.type }}">
-            <td class="schedule-time">{{ item.duration }}</td>
+            <td class="schedule-time">{% include clock.html m=t %} &ndash; {% include clock.html m=tend %}</td>
             <td class="schedule-event">
               <strong>{{ item.title }}</strong>
               {% if item.speaker %}
                 <span class="schedule-speaker">&mdash; {{ item.speaker }}</span>
+              {% endif %}
+              {% if item.paper %}
+                <span class="schedule-paper">({{ item.paper }})</span>
               {% endif %}
               {% if item.detail %}
                 <span class="schedule-detail">{{ item.detail }}</span>
               {% endif %}
             </td>
           </tr>
+          {% assign t = t | plus: dur %}
           {% endfor %}
         </tbody>
       </table>
     </div>
 
     <div class="contributed-note">
-      <h3>Contributed Talks and Posters</h3>
-      <p>The workshop will feature both contributed talks and posters. We will solicit non-archival working papers. A light review process will select papers for spotlight talks; additional accepted papers will be presented as posters.</p>
+      <h3>Accepted Posters</h3>
+      <ul class="poster-list">
+        {% for poster in site.data.posters %}
+        <li>
+          <em class="poster-title">{{ poster.title }}</em>
+          {% if poster.author %}
+            <span class="poster-author">({{ poster.author }})</span>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
     </div>
   </div>
 </section>

@@ -1,35 +1,53 @@
-- duration: "5 min"
+# Start/end times are computed in _includes/schedule.html from these durations,
+# anchored at 9:00 AM. Edit a duration and the displayed times update automatically.
+- duration: "10 min"
   title: "Opening"
   type: opening
 
 - duration: "35 min"
-  title: "Invited Talk 1"
+  title: "Invited Talk"
   speaker: "Brendan Lucier"
   detail: "30' + 5' Q&A"
   type: invited
 
-- duration: "20 min"
-  title: "Two Spotlight Talks"
-  detail: "7' + 2' Q&A each"
+- duration: "10 min"
+  title: "Spotlight Talk"
+  speaker: "Rachel Li"
+  paper: "Strategic Candidacy in Generative AI Arenas"
+  detail: "8' + 2' Q&A"
   type: contributed
 
 - duration: "35 min"
-  title: "Invited Talk 2"
+  title: "Invited Talk"
   speaker: "Siddarth Srinivasan"
   detail: "30' + 5' Q&A"
   type: invited
 
-- duration: "20 min"
+- duration: "30 min"
   title: "Coffee Break"
   type: break
 
 - duration: "35 min"
-  title: "Invited Talk 3"
+  title: "Invited Talk"
   speaker: "Emilio Calvano"
   detail: "30' + 5' Q&A"
   type: invited
 
-- duration: "25 min"
+- duration: "10 min"
+  title: "Spotlight Talk"
+  speaker: "Giulio Frey"
+  paper: "Mecha-nudges for Machines"
+  detail: "8' + 2' Q&A"
+  type: contributed
+
+- duration: "10 min"
+  title: "Spotlight Talk"
+  speaker: "Siddharth Prasad"
+  paper: "In-Context Credit Assignment via the Core"
+  detail: "8' + 2' Q&A"
+  type: contributed
+
+- duration: "30 min"
   title: "Open Problems"
   detail: "Small group discussion with final presentation"
   type: discussion

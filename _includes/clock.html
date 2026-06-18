@@ -1,0 +1,5 @@
+{%- comment -%} Formats include.m (minutes since midnight) as 12-hour "h:mm", no AM/PM. {%- endcomment -%}
+{%- assign _h = include.m | divided_by: 60 -%}
+{%- assign _m = include.m | modulo: 60 -%}
+{%- if _h == 0 -%}{%- assign _h = 12 -%}{%- elsif _h > 12 -%}{%- assign _h = _h | minus: 12 -%}{%- endif -%}
+{%- if _m < 10 -%}{{- _h -}}:0{{- _m -}}{%- else -%}{{- _h -}}:{{- _m -}}{%- endif -%}

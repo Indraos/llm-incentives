@@ -365,8 +365,13 @@ a:hover {
 }
 
 .schedule-speaker {
-  color: var(--stanford-red);
+  color: var(--muted-text);
   font-weight: 500;
+}
+
+.schedule-paper {
+  font-style: italic;
+  color: var(--muted-text);
 }
 
 .schedule-detail {
@@ -386,7 +391,7 @@ a:hover {
 }
 
 .schedule-invited .schedule-event strong {
-  color: var(--stanford-red);
+  color: var(--dark-text);
 }
 
 .contributed-note {
@@ -405,6 +410,17 @@ a:hover {
 .contributed-note p {
   margin-bottom: 0;
   font-size: 0.92rem;
+}
+
+.poster-list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  font-size: 0.92rem;
+}
+
+.poster-list li {
+  margin-bottom: 0.5rem;
 }
 
 /* === Call for Papers === */

@@ -1,7 +1,7 @@
 # Start/end times are computed in _includes/schedule.html from these durations,
 # anchored at 9:00 AM. Edit a duration and the displayed times update automatically.
 - duration: "10 min"
-  title: "Opening"
+  title: "Opening Remarks"
   type: opening
 
 - duration: "35 min"

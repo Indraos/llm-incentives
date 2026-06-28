@@ -2,19 +2,19 @@
   affiliation: Microsoft Research New England
   initials: BL
   image: /assets/images/speakers/brendan-lucier.jpg
-  talk_title: "TBD"
-  abstract: "TBD"
+  talk_title: "Agentic Markets and Consumer Search"
+  abstract: "Consumers increasingly delegate the discovery and evaluation of products to AI agents that search on their behalf. This change is poised to impact the way firms attract customers, the way platforms monetize and make recommendations, and the information revealed to the market through the search process. In this talk I’ll discuss market design implications and research challenges stemming from agent-powered consumer search."
 
 - name: Siddarth Srinivasan
   affiliation: "Anthropic Fellow; Harvard University"
   initials: SS
   image: /assets/images/speakers/siddarth-srinivasan.jpg
-  talk_title: "TBD"
-  abstract: "TBD"
+  talk_title: "To be announced"
+  abstract: "To be announced"
 
 - name: Gerry Tsoukalas
   affiliation: "Boston University,"
   initials: GT
   image: /assets/images/speakers/TsoukalasGerry.jpg
-  talk_title: "TBD"
-  abstract: "TBD"
+  talk_title: "On the Fragility of AI Agent Collusion"
+  abstract: "Recent work shows that pricing with symmetric LLM agents leads to algorithmic collusion. We show that  collusion is fragile under the heterogeneity typical of real deployments. In a stylized repeated-pricing model, heterogeneity in patience or data access reduces the set of collusive equilibria. Experiments with open-source LLM agents (totaling over 2,000 compute hours) align with these predictions: patience heterogeneity reduces price lift from 22% to 10% above competitive levels; asymmetric data access, to 7%. Increasing the number of competing LLMs breaks up collusion; so does cross-algorithm heterogeneity, that is, setting LLMs against Q-learning agents. But model-size differences (e.g., 32B vs. 14B weights) do not; they generate leader-follower dynamics that stabilize collusion. We discuss antitrust implications, such as enforcement actions restricting data-sharing and policies promoting algorithmic diversity."

@@ -19,8 +19,23 @@
               {% if item.paper %}
                 <span class="schedule-paper">({{ item.paper }})</span>
               {% endif %}
+              {% if item.type == "invited" and item.speaker %}
+                {% assign spk = site.data.speakers | where: "name", item.speaker | first %}
+                {% if spk.talk_title %}
+                  <span class="schedule-talk-title">{{ spk.talk_title }}</span>
+                {% endif %}
+              {% endif %}
               {% if item.detail %}
                 <span class="schedule-detail">{{ item.detail }}</span>
+              {% endif %}
+              {% if item.type == "invited" and item.speaker %}
+                {% assign spk = site.data.speakers | where: "name", item.speaker | first %}
+                {% if spk.abstract %}
+                  <span class="schedule-abstract-wrap">
+                    <button class="schedule-abstract-toggle" aria-expanded="false" onclick="toggleAbstract(this)">Abstract</button>
+                    <span class="schedule-abstract-body">{{ spk.abstract }}</span>
+                  </span>
+                {% endif %}
               {% endif %}
             </td>
           </tr>
@@ -45,3 +60,16 @@
     </div>
   </div>
 </section>
+
+<script>
+function toggleAbstract(btn) {
+  var expanded = btn.getAttribute('aria-expanded') === 'true';
+  btn.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+  var body = btn.nextElementSibling;
+  if (expanded) {
+    body.style.display = 'none';
+  } else {
+    body.style.display = 'block';
+  }
+}
+</script>

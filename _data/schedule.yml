@@ -4,10 +4,10 @@
   title: "Opening Remarks"
   type: opening
 
-- duration: "35 min"
+- duration: "25 min"
   title: "Invited Talk"
-  speaker: "Brendan Lucier"
-  detail: "30' + 5' Q&A"
+  speaker: "Gerry Tsoukalas"
+  detail: "20' + 5' Q&A"
   type: invited
 
 - duration: "10 min"
@@ -17,20 +17,20 @@
   detail: "8' + 2' Q&A"
   type: contributed
 
-- duration: "35 min"
+- duration: "40 min"
   title: "Invited Talk"
   speaker: "Siddarth Srinivasan"
-  detail: "30' + 5' Q&A"
+  detail: "35' + 5' Q&A"
   type: invited
 
 - duration: "30 min"
   title: "Coffee Break"
   type: break
 
-- duration: "35 min"
+- duration: "40 min"
   title: "Invited Talk"
-  speaker: "Emilio Calvano"
-  detail: "30' + 5' Q&A"
+  speaker: "Brendan Lucier"
+  detail: "35' + 5' Q&A"
   type: invited
 
 - duration: "10 min"

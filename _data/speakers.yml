@@ -9,8 +9,8 @@
   affiliation: "Anthropic Fellow; Harvard University"
   initials: SS
   image: /assets/images/speakers/siddarth-srinivasan.jpg
-  talk_title: "To be announced"
-  abstract: "To be announced"
+  talk_title: "Toward a Social Science of AI Agents"
+  abstract: "As LLM-based AI agents become more capable, there is increasing interest in deploying them in multi-agent settings on behalf of their principals. We propose treating agents in such settings as subjects whose collective behavior can be studied with an empirical social-science approach. To this end, we introduce MageLab, a framework for orchestrating and running multi-agent LLM experiments. We first present results from a collaborative setting, showing how diffusion of responsibility can lead teams of aligned AI agents to produce harmful outcomes no individual agent would endorse. We then turn to a competitive setting where agents run restaurant businesses — designing menus, setting prices, and managing inventory, facilities, and staff — and study their social and economic behavior. The ultimate aim of this approach is to understand how real-world multi-agent systems behave and to build AI systems with desirable collective behavior."
 
 - name: Gerry Tsoukalas
   affiliation: "Boston University,"
